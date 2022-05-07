@@ -1,0 +1,77 @@
+body {
+  background-color: #1f1f1f;
+}
+
+body > div {
+  background-color: #1f1f1f;
+  display: flex;
+}
+
+div {
+  height: 5vh;
+  width: 50vh;
+  border: 1px solid blueviolet;
+}
+
+div:hover {
+  background-color: #fff;
+  color: #000;
+  height: 50vh;
+}
+
+/*
+.animation {
+  margin-right: 0;
+  transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -o-transition: all 1s linear;
+}
+
+*/
+.transition {
+  height: 80vh;
+}
+
+.animation {
+  transition-property: height;
+  transition-duration: 2s;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.ease {
+  transition-timing-function: ease;
+  transition-delay: 2s;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+.cubic-bezier {
+  transition-timing-function: cubic-bezier(0.49, 1, 0.91, 0);
+}
+#map {
+  height: 180px;
+}
+
+.animation_perspective {
+  animation: rotead 4s infinite ease-in-out;
+}
+
+@keyframes rotead {
+  0% {
+    
+  }
+}
